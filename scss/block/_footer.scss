@@ -1,0 +1,106 @@
+.footer__content{
+    position: relative;
+    display: flex;
+    padding: 48px 0;
+    background: #002529;
+}
+.footer__logo{
+    margin-left: 24px;
+}
+.footer__list{
+    margin-left: 24px;
+    display: flex;
+    margin-top: 25px;
+}
+.footer__item+.footer__item{
+    margin-left: 40px;
+}
+.footer__item-link{
+    max-width: 49px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer__text{
+    margin-left: 125px;
+    max-width: 165.4px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;   
+}
+.footer__imgs{
+    display: flex;
+    margin-left: 510px;
+    margin-right: 30px;
+}
+.footer__img+.footer__img{
+    margin-left: 16px;
+}
+.footer__big-link{
+    position: absolute;
+    left: 820px;
+    top: 123px;
+    max-width: 255px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;  
+}
+@media only screen and (max-width:1100px){
+    .footer__content{
+        position: relative;
+        padding: 56px 0;
+    }
+    .footer__imgs{
+        display: flex;
+        position: absolute;
+        left: -487px;
+        top: 183px;
+    }
+    .footer__big-link{
+        position: absolute;
+        left: 473px;
+        top: 183px;
+    }
+    .footer__text{
+        position: absolute;
+        left: 448px;
+    }
+}
+@media only screen and (max-width:800px){
+    .footer__content{
+        position: relative;
+        max-width: 800px;
+        height: 432px;
+        padding: 66px 0;
+        display: block;
+    }
+    .footer__logo{
+        position: absolute;
+        left: 50px;
+    }
+    .footer__list{
+        position: absolute;
+        left: 50px;
+        top: 78px;
+    }
+    .footer__text{
+        position: absolute;
+        left: -43px;
+        top: 157px;
+    }
+    .footer__imgs{
+        position: absolute;
+        top: 290px;
+        left: -433px;
+    }
+    .footer__big-link{
+        position: absolute;
+        top: 350px;
+        left: 60px;
+    }
+}

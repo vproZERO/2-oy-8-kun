@@ -1,0 +1,110 @@
+.collect__content{
+    background-color: #004047;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.collect__tittle{
+    max-width: 920px;
+    margin: 0 260px 64px 260px;
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF; 
+}
+.collect__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colledt__item{
+    background: #012F34;
+    max-width: 350px;
+    height: 281px;
+    margin-bottom: 76px;
+}
+.collect__item-img{
+    max-width: 96px;
+    height: 96px;
+    margin: 32px 127px 16px 127px;
+}
+.collect__item-name{
+    max-width: 302px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #79C8C7;
+    text-align: center;  
+    margin: 0 auto;
+}
+.collect__item-suptittle{
+    max-width: 302px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;  
+}
+.collect__item-img2{
+    max-width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 58px;
+}
+
+@media only screen and (max-width:1100px){
+    .collect__content{
+        padding-top: 100px;
+    }
+    .collect__tittle{
+        max-width: 445px;
+        margin: 0 161px 48px 161px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .colledt__item{
+        max-width: 281px;
+        height: 281px;
+        margin-bottom: 48px;
+    }
+    .collect__item-img{
+        margin: 32px 92px 16px 92px;
+    }
+    .collect__item-name{
+        max-width: 233px;
+    }
+    .collect__item-suptittle{
+        max-width: 233px;
+    }
+    .collect__item-img2{
+        margin-top: 58px;
+    }
+}
+@media only screen and (max-width:619px){
+    .collect__content{
+        padding-top: 88px;
+    }
+    .collect__tittle{
+        max-width: 327px;
+        margin: 0 24px 48px 24px;
+    }
+    .collect__list{
+        display: block;
+        margin-left: 24px;
+    }
+    .colledt__item{
+        max-width: 327px;
+        margin-bottom: 24px;
+    }
+    .collect__item-img{
+        margin: 32px 115px 16px 115px;
+    }
+    .collect__item-name{
+        max-width: 279px;
+    }
+    .collect__item-suptittle{
+        max-width: 279px;
+    }
+    .collect__item-img2{
+        margin-top: 58px;
+    }
+}
