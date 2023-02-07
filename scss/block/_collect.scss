@@ -6,8 +6,10 @@
     padding-bottom: 140px;
 }
 .collect__tittle{
-    max-width: 920px;
-    margin: 0 260px 64px 260px;
+    max-width: 432px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 64px;
     font-weight: 700px;
     font-size: 48px;
     line-height: 48px;
@@ -16,21 +18,23 @@
 .collect__list{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 .colledt__item{
     background: #012F34;
-    max-width: 350px;
+    width: 350px;
     height: 281px;
     margin-bottom: 76px;
 }
 .collect__item-img{
+    flex-shrink: 0;
     max-width: 96px;
     height: 96px;
-    margin: 32px 127px 16px 127px;
+    margin: 32px auto 16px auto;
 }
 .collect__item-name{
-    max-width: 302px;
+    max-width: 120px;
     font-weight: 700px;
     font-size: 18px;
     line-height: 28px;
@@ -39,27 +43,25 @@
     margin: 0 auto;
 }
 .collect__item-suptittle{
-    max-width: 302px;
+    max-width: 130px;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
     margin: 0 auto;
     color: #FFFFFF;  
+    margin-bottom: 58px;
 }
 .collect__item-img2{
     max-width: 56px;
     height: 56px;
     margin: 0 auto;
-    margin-top: 58px;
 }
 
 @media only screen and (max-width:1100px){
-    .collect__content{
-        padding-top: 100px;
-    }
     .collect__tittle{
-        max-width: 445px;
-        margin: 0 161px 48px 161px;
+        max-width: 286px;
+        margin-right: auto;
+        margin-left: auto;
         font-size: 32px;
         line-height: 32px;
     }
@@ -69,16 +71,18 @@
         margin-bottom: 48px;
     }
     .collect__item-img{
-        margin: 32px 92px 16px 92px;
+        margin: 32px auto 16px auto;
     }
     .collect__item-name{
-        max-width: 233px;
+        max-width: 120px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .collect__item-suptittle{
-        max-width: 233px;
-    }
-    .collect__item-img2{
-        margin-top: 58px;
+        max-width: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 58px;
     }
 }
 @media only screen and (max-width:619px){
@@ -86,27 +90,88 @@
         padding-top: 88px;
     }
     .collect__tittle{
-        max-width: 327px;
-        margin: 0 24px 48px 24px;
+        max-width: 285px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 48px;
     }
     .collect__list{
         display: block;
-        margin-left: 24px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .colledt__item{
         max-width: 327px;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 24px;
     }
     .collect__item-img{
-        margin: 32px 115px 16px 115px;
+        margin: 32px auto 16px auto;
     }
     .collect__item-name{
-        max-width: 279px;
+        max-width: 115px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .collect__item-suptittle{
-        max-width: 279px;
+        max-width: 115px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 58px;
+    }
+}
+@media only screen and (max-width:374px){
+        
+    .collect__tittle{
+        max-width: 177px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 64px;
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFFFFF; 
+    }
+    .collect__list{
+        display: block;
+    }
+    .colledt__item{
+        background: #012F34;
+        width: 250px;
+        height: 281px;
+        margin-bottom: 76px;
+    }
+    .collect__item-img{
+        flex-shrink: 0;
+        max-width: 96px;
+        height: 96px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .collect__item-name{
+        max-width: 120px;
+        font-weight: 700px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #79C8C7;
+        text-align: center;  
+        margin: 0 auto;
+    }
+    .collect__item-suptittle{
+        max-width: 130px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        color: #FFFFFF;  
+        margin-bottom: 58px;
     }
     .collect__item-img2{
-        margin-top: 58px;
+        max-width: 56px;
+        height: 56px;
+        margin: 0 auto;
     }
 }
